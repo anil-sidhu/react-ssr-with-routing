@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Create Simple App with npx create-react-app app-name
+#### Create Simple App with npx create-react-app app-name
 
 Change the code in index.js file 
 
@@ -16,14 +16,14 @@ ReactDOM.hydrate(<App />, document.getElementById('root'));
 ```
 
 
-## `Install Expree with below command `
+#### `Install Expree with below command `
 
 
 ```javascript
 npm install express
 ```
 
-## `Install babel,babel-react and ignore-style with below command `
+#### `Install babel,babel-react and ignore-style with below command `
 
 
 ```javascript
@@ -32,7 +32,7 @@ npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles
 ```
 
 
-## `Create a new folder called server, then go into it and create a file named server.js `
+#### `Create a new folder called server, then go into it and create a file named server.js `
 
 
 ```javascript
@@ -80,7 +80,7 @@ app.listen(PORT, () => {
 
 ```
 
-## `Let’s create an entry point in server/index.js:`
+#### `Let’s create an entry point in server/index.js:`
 
 ```javascript
 
