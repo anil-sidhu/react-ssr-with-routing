@@ -1,8 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Create Simple App with npx create-react-app app-name
 
-In the project directory, you can run:
+After Creater app Change the code in index.js file 
+
+
+
+```javascript
+ReactDOM.render(<App />, document.getElementById('root'));
+ replace with 
+ 
+ReactDOM.hydrate(<App />, document.getElementById('root'));
+
+
+```
+
 
 ### `npm start`
 
